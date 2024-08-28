@@ -85,7 +85,7 @@ nav {
 }
 #scroll-section-1 h1{
     position:relative;
-    top: -25vh;
+    top: -18vh;
     z-index:100;
     font-size: 4rem;
     text-align: center;
@@ -93,14 +93,14 @@ nav {
 .main-message {
     display:flex;
     justify-content: center;
-    top:35vh;
+    top:30vh;
     align-items: center;
     height:3em;
     font-size:2.5rem;
     opacity: 0;
 }
 .main-message p {
-    line-height: 1.2em;
+    line-height: 1em;
     text-align: center;
     font-weight: bold;
 }
@@ -108,10 +108,11 @@ nav {
 /* 스크롤 section2 */
 .description {
     max-width:1000px;
-    margin: 0 auto; 
-    font-size:1.3em;
+    margin: auto; 
+    font-size:1.5em;
     color:#888;
-    padding: 10rem;
+    padding: 1rem;
+    text-align: center;
 }
 .description strong{
     float:left;
@@ -234,6 +235,8 @@ nav {
     75% { stroke-dashoffset: -147;}
     100% { stroke-dashoffset: -157;}
 }
+
+
 .loading-circle {
     width: 54px;
     height: 54px;
