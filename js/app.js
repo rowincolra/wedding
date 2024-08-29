@@ -23,8 +23,8 @@
                 videoImages: []
             },
             values: {
-                videoImageCount: 313,
-                imageSequence:[0, 312],
+                videoImageCount: 564,
+                imageSequence:[0, 563],
                 canvasOpacity:[1,0,{start:0.9, end:1}],
 
                 messageA_opacity_in:[0, 1, {start: 0.1, end: 0.2}],
@@ -72,8 +72,8 @@
                 videoImages: []
             },
             values: {
-                videoImageCount: 292,
-                imageSequence:[0, 291],
+                videoImageCount: 129,
+                imageSequence:[0, 128],
                 canvasOpacity_in:[0,1,{start:0, end:0.1}],
                 canvasOpacity_out:[1,0,{start:0.9, end:1}],
 
@@ -110,8 +110,8 @@
                 canvas: document.querySelector('.image-blend-canvas'),
                 context: document.querySelector('.image-blend-canvas').getContext('2d'),
                 imagePath: [
-                    './images/mecolro_blue.jpg',
-                    './images/IMG_1667.JPG'
+                    './images/IMG_63521.JPG',
+                    './images/IMG_73591.JPG'
                 ],
                 images: [],
             },
@@ -123,7 +123,7 @@
                 rectStartY: 0,
 
                 canvasCaption_opacity: [0, 1, { start: 0, end: 0 }],
-                canvasCaption_translateY: [20, 0, { start: 0, end: 0 }],
+                canvasCaption_translateY: [30, 0, { start: 0, end: 0 }],
 
             }
         }

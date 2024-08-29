@@ -129,19 +129,27 @@ nav {
     display:block;
     margin-bottom:-1em;
     font-size: 1.2rem;
+    color: rgb(255, 255, 255);
 }
 .pin {
     width: 1px;
     height: 100px;
-    background: rgb(29,29,31);
+    background: rgb(255, 255, 255);
+    opacity: 0%;
+    /* background: rgb(29,29,31); */
+    /* color:#999; */
 }
+ 
+/* 영찬진아위치 */
 #scroll-section-3 .b{
     top:10%;
-    left:40%;
+    left:55%;
+    font-size: 1.8rem;
 }
 #scroll-section-3 .c{
-    top:15%;
-    left:45%;
+    top:10%;
+    left:35%;
+    font-size: 1.8rem;
 }
 
 /* 스크롤 section4 */
@@ -159,18 +167,23 @@ nav {
     top:0;
 }
 #scroll-section-4 p.mid-message{
-    width: 1000px;
+    font-size: 2rem;
+    /* width: 1200px; */
+    /* margin: 50% auto; */
 }
 .mid-message {
     /* max-width:1000px; */
     margin: 0 auto; 
-    padding: 0 1rem;
+    padding: 0 2rem;
     font-size: 2rem;
     color:#888;
+    text-align: center;
 }
 .mid-message strong{
     color:rgb(29,29,31);
 }
+
+/* 마지막 안내사항 */
 .canvas-caption {
     max-width:1000px;
     margin: -15em auto 0; 
@@ -191,6 +204,15 @@ nav {
     font-weight: bold;
     width: 40%;
     opacity:0;
+    font-size: 2rem;
+    color:#999;
+}
+
+.smallgray {
+    font-weight:normal;
+    width: 40%;
+    color:#333;
+    font-size: 1.5rem;
 }
 
 /* footer */
@@ -311,3 +333,24 @@ nav {
     top: 50%;
     left: 50%;
 } 
+
+
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height: 100%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
