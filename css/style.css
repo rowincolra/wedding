@@ -96,7 +96,7 @@ nav {
     top:30vh;
     align-items: center;
     height:3em;
-    font-size:2.5rem;
+    font-size:2rem;
     opacity: 0;
 }
 .main-message p {
@@ -354,3 +354,7 @@ nav {
     padding: 0;
   }
   
+
+  h3{
+      text-align: left;
+  }

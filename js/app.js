@@ -110,8 +110,8 @@
                 canvas: document.querySelector('.image-blend-canvas'),
                 context: document.querySelector('.image-blend-canvas').getContext('2d'),
                 imagePath: [
-                    './images/IMG_63521.JPG',
-                    './images/IMG_73591.JPG'
+                    './images/IMG_8000.JPG',
+                    './images/IMG_8001.JPG'
                 ],
                 images: [],
             },
